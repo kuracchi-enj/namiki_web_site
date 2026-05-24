@@ -28,7 +28,6 @@ permissions:
 
 jobs:
   deploy:
-    if: ${{ secrets.AWS_GITHUB_ACTIONS_ROLE_ARN != '' }}
     runs-on: ubuntu-latest
     env:
       AWS_REGION: ap-northeast-1
