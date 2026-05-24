@@ -1,0 +1,22 @@
+{
+  "name": "namiki-web-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "synth": "npm run build && cdk synth",
+    "deploy": "npm run build && cdk deploy",
+    "destroy": "npm run build && cdk destroy"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "aws-cdk": "^2.1014.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.196.0",
+    "constructs": "^10.4.2"
+  }
+}

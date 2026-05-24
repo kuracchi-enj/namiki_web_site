@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>並木ソフト | 横浜市泉区で活動するソフトボールチーム</title>
+    <meta
+      name="description"
+      content="並木ソフトは神奈川県横浜市泉区を拠点に活動するソフトボールチームです。日曜メインで楽しく本気に活動しています。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;family=Noto+Sans+JP:wght@400;500;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/namiki_profile.jpg" type="image/jpeg" />
+    <link rel="shortcut icon" href="./img/namiki_profile.jpg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="./img/namiki_profile.jpg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" id="top">
+        <div class="brand-lockup">
+          <span class="brand-mark brand-photo-shell">
+            <img
+              class="brand-photo"
+              src="./img/namiki_profile.jpg"
+              alt="並木ソフトのチーム写真"
+            />
+          </span>
+          <div>
+            <a class="brand-name" href="#top">並木ソフト</a>
+          </div>
+        </div>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">メニューを開閉</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+          <a href="#about">チーム紹介</a>
+          <a href="#schedule">試合日程</a>
+          <a href="#gallery">ギャラリー</a>
+          <a href="#join">参加案内</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="section-label">For Newcomers, Teammates, and Supporters</p>
+            <h2 id="hero-headline">経験者も未経験者も<br />楽しく本気で。</h2>
+            <p class="hero-text" id="hero-description">
+              並木ソフトは神奈川県横浜市泉区を拠点に活動するソフトボールチームです。「楽しく」かつ「本気でやる」をモットーに日曜日メインで活動をしています。
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#schedule">次の試合を見る</a>
+              <a
+                class="button button-secondary"
+                data-contact-link
+                href="https://www.instagram.com/namiki_softball/"
+                target="_blank"
+                rel="noreferrer"
+              >InstagramのDMで連絡する</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-scorecard glass-card">
+              <p class="scorecard-label">Next Game</p>
+              <p class="scorecard-date" id="next-game-date">2026.5.10 SUN</p>
+              <h2><span>VS</span> <span id="next-game-opponent">中村サンダース</span></h2>
+              <dl class="next-game-list">
+                <div>
+                  <dt>場所</dt>
+                  <dd id="next-game-location">和泉遊水池グラウンド</dd>
+                </div>
+                <div>
+                  <dt>時間</dt>
+                  <dd id="next-game-time">10:00~</dd>
+                </div>
+              </dl>
+              <div class="countdown" data-date="2026-05-10T10:00:00+09:00">
+                <div>
+                  <span class="count-number" data-unit="days">00</span>
+                  <span class="count-label">Days</span>
+                </div>
+                <div>
+                  <span class="count-number" data-unit="hours">00</span>
+                  <span class="count-label">Hours</span>
+                </div>
+                <div>
+                  <span class="count-number" data-unit="minutes">00</span>
+                  <span class="count-label">Minutes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="about">
+          <div class="section-heading">
+            <p class="section-label">About The Club</p>
+          </div>
+
+          <div class="about-grid" id="about-grid">
+            <article class="feature-card">
+              <p class="feature-number">01</p>
+              <h3>楽しくやる</h3>
+              <p>本気でプレーするにもまずは楽しいと思えることが大事。楽しく元気に活動中！</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-number">02</p>
+              <h3>本気でプレーして勝ちに行く</h3>
+              <p>やるからには本気でプレーして試合に勝ちに行く。</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-number">03</p>
+              <h3>参加しやすい環境へ</h3>
+              <p>
+                野球・ソフトボール未経験者でも出場機会を得やすい環境。チーム全員が参加して「楽しかった！またいこう！」と思えるような環境を目指しています。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split-section" id="schedule">
+          <div class="section-heading compact">
+            <p class="section-label">Schedule</p>
+          </div>
+
+          <div class="schedule-layout">
+            <article class="match-spotlight" id="schedule-spotlight">
+              <p class="eyebrow">Featured Match</p>
+              <h3 id="spotlight-title">泉区長杯 予選リーグ</h3>
+              <p class="spotlight-versus"><span>VS</span> <span id="spotlight-opponent">中村サンダース</span></p>
+              <dl class="spotlight-list" id="spotlight-details">
+                <div>
+                  <dt>日付</dt>
+                  <dd>2026年5月10日（日）</dd>
+                </div>
+                <div>
+                  <dt>集合</dt>
+                  <dd>8時45分</dd>
+                </div>
+                <div>
+                  <dt>試合開始</dt>
+                  <dd>10時00分</dd>
+                </div>
+                <div>
+                  <dt>会場</dt>
+                  <dd>和泉遊水池</dd>
+                </div>
+              </dl>
+              <a class="text-link" href="#join">見学や連絡はこちら</a>
+            </article>
+
+            <div class="schedule-list" id="schedule-list">
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">05.10</p>
+                <div>
+                  <h3>泉区長杯 予選リーグ</h3>
+                  <p>集合時間: 8時45分 / 試合開始: 10時00分</p>
+                  <p>試合会場: 和泉遊水池</p>
+                  <p>対戦相手: 中村サンダース</p>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">05.17</p>
+                <div>
+                  <h3>自治会スローピッチ大会</h3>
+                  <p>スローピッチ / 集合時間: 10時 / 試合開始: 11時</p>
+                  <p>試合会場: 和泉遊水池</p>
+                  <p>終了後、参加者いずみ野中へ移動</p>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">05.17</p>
+                <div>
+                  <h3>サンデーリーグ</h3>
+                  <p>集合時間: 12時00分 / 試合開始: 13時10分</p>
+                  <p>試合会場: いずみ野中</p>
+                  <p>対戦相手: 和泉台ソフト</p>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">05.23</p>
+                <div>
+                  <h3>上半期〆飲み会</h3>
+                  <p>時間: 19時〜</p>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">05.31</p>
+                <div>
+                  <h3>サンデーリーグ予定日</h3>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">06.14</p>
+                <div>
+                  <h3>サンデーリーグ予定日</h3>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">06.21</p>
+                <div>
+                  <h3>練習試合予定</h3>
+                  <p>9時〜11時 / 小雀公園</p>
+                </div>
+              </article>
+              <article class="schedule-card schedule-card-detailed">
+                <p class="schedule-day">06.28</p>
+                <div>
+                  <h3>サンデーリーグ予定日</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section gallery-section" id="gallery">
+          <div class="section-heading compact">
+            <p class="section-label">Gallery</p>
+          </div>
+
+          <div class="gallery-grid gallery-grid-instagram" id="gallery-grid">
+            <article class="gallery-card gallery-embed-card">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/DXTZ1QzE4yA/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+              ></blockquote>
+            </article>
+            <article class="gallery-card gallery-embed-card">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/DXobsYuE7DG/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+              ></blockquote>
+            </article>
+            <article class="gallery-card gallery-embed-card">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/reel/DXob1OYkx36/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+              ></blockquote>
+            </article>
+          </div>
+        </section>
+
+        <section class="section join-section" id="join">
+          <div class="join-panel join-panel-single">
+            <div>
+              <p class="section-label">Join &amp; Contact</p>
+              <h2>まずは見学からでも！<br>チームメンバーと交流しませんか？</h2>
+              <p>
+                選手として参加したい方、まずは雰囲気を見たい方、どちらも大歓迎です！<br>
+                また、練習試合や合同練習のお誘いもお待ちしています！<br>
+                InstagramのDMからお気軽にご連絡ください。チームメンバーと交流してみませんか？<br>
+              </p>
+            </div>
+
+            <div class="join-actions">
+              <a
+                class="button button-primary"
+                data-contact-link
+                href="https://www.instagram.com/namiki_softball/"
+                target="_blank"
+                rel="noreferrer"
+              >Instagramで連絡する</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="footer-title">並木ソフト</p>
+          <p>神奈川県横浜市泉区を拠点に活動中</p>
+        </div>
+        <div class="footer-links">
+          <a href="#top">Top</a>
+          <a href="#about">Team</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#gallery">Gallery</a>
+          <a data-contact-link href="https://www.instagram.com/namiki_softball/" target="_blank" rel="noreferrer">Contact</a>
+        </div>
+      </footer>
+    </div>
+
+    <script async src="https://www.instagram.com/embed.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
